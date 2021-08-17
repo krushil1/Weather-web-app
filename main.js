@@ -23,27 +23,27 @@ function submitted(event) {
             break;
 
         case "Thunderstorm":
-            document.getElementById("conditionIcon").className = "fas fa-bolt";
+            document.getElementById("conditionIcon").className = "conditionIcon fas fa-bolt";
             break;
 
         case "Drizzle":
-            document.getElementById("conditionIcon").className = "fas fa-cloud-rain";
+            document.getElementById("conditionIcon").className = "conditionIcon fas fa-cloud-rain";
           break;
 
         case "Rain":
-            document.getElementById("conditionIcon").className = "fas fa-cloud-showers-heavy";
+            document.getElementById("conditionIcon").className = "conditionIcon fas fa-cloud-showers-heavy";
             break;
 
         case "Snow":
-            document.getElementById("conditionIcon").className = "far fa-snowflake";
+            document.getElementById("conditionIcon").className = "conditionIcon far fa-snowflake";
             break;
 
         case "Clear":
-            document.getElementById("conditionIcon").className = "fas fa-sun";
+            document.getElementById("conditionIcon").className = "conditionIcon fas fa-sun";
             break;
 
         default:
-            document.getElementById("conditionIcon").className = "fas fa-sun";
+            document.getElementById("conditionIcon").className = "conditionIcon fas fa-sun";
       }
 
       let weather = `${weatherNum} °F`;
