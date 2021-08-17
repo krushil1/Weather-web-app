@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap");
+
+body {
+  background-color: #161a1d;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 370px;
+  background-color: #0b090a;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.time {
+  margin-top: 30px;
+  color: #e5383b;
+  font-size: 45px;
+  text-align: center;
+}
+
+.location {
+  color: #d3d3d3;
+  font-size: 35px;
+  margin-top: 16vh;
+  text-align: center;
+}
+
+.date {
+  color: #d3d3d3;
+  font-size: 25px;
+  text-align: center;
+}
+
+.condition {
+  color: #e5383b;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 14vh;
+}
+
+.conditionIcon {
+  color: #e5383b;
+  font-size: 20vh;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.main {
+  /* margin-left: 10px;  */
+  padding: 0px 10px;
+}
+
+.searchbar {
+  margin-top: 30px;
+  width: 30vw;
+  height: 5vh;
+  color: #edf2f4;
+  font-weight: 900;
+  font-size: 35px;
+  background-color: #8d99ae;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 3%;
+  width: 40vw;
+  height: 5vh;
+  color: #edf2f4;
+  font-weight: 900;
+  font-size: 35px;
+  background-color: #8d99ae;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  color: #edf2f4;
+  font-size: 35px;
+  font-weight: 500;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #edf2f4;
+}
+
+.searchBtn {
+  background-color: #13415b;
+  color: #e63946;
+  font-size: 20px;
+  height: 5vh;
+  width: 8vw;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.searchBtn:hover {
+  background-color: #13415bcd;
+  color: #e63947cb;
+  cursor: pointer;
+}
+
+.dataContainer {
+  width: 100%;
+  margin: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.data1 {
+  box-shadow: 0 8px 6px -6px rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 20vw;
+  height: auto;
+  margin-top: 15px;
+  font-weight: bold;
+  background-color: #8d99ae;
+  text-align: center;
+}
+
+.data {
+  box-shadow: 0 8px 6px -6px rgb(255, 255, 255);
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 20vw;
+  margin-top: 15px;
+  font-weight: bold;
+  height: auto;
+  background-color: #8d99ae;
+  text-align: center;
+}
+
+.dataNums {
+  color: #2b2d42;
+  font-size: 8vh;
+}
+
+.dataText {
+  line-height: 0;
+  color: #d3d3d3;
+  font-size: 35px;
+}

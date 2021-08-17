@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <form id="form" role="search">
+        <input
+          type="search"
+          id="query"
+          name="q"
+          placeholder="Enter a city name"
+        />
+        <button class="searchBtn">Search</button>
+      </form>
+
+      <div class="dataContainer">
+        <div class="data1">
+          <p class="dataNums" id="currentTemp">----</p>
+          <p class="dataText">Current Temp</p>
+        </div>
+
+        <div class="data">
+          <p class="dataNums" id="humidity">----</p>
+          <p class="dataText">Humidity</p>
+        </div>
+
+        <div class="data">
+          <p class="dataNums" id="feels">----</p>
+          <p class="dataText">Feels Like</p>
+        </div>
+      </div>
+
+      <div class="dataContainer">
+        <div class="data1">
+          <p class="dataNums" id="high">----</p>
+          <p class="dataText">High</p>
+        </div>
+
+        <div class="data">
+          <p class="dataNums" id="low">----</p>
+          <p class="dataText">Low</p>
+        </div>
+
+        <div class="data">
+          <p class="dataNums" id="windSpeed">----</p>
+          <p class="dataText">Wind Speed</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidenav">
+      <p class="time" id="time">----</p>
+      <p class="location" id="location">----</p>
+      <p class="date" id="date"></p>
+      <p class="condition">Current Condition</p>
+      <i id="conditionIcon"></i>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
